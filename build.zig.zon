@@ -1,0 +1,22 @@
+.{
+    .name = "rmw",
+    .version = "7.1.0",
+    .dependencies = .{
+        .rmw = .{
+            .url = "https://github.com/ros2/rmw/archive/refs/heads/iron.tar.gz",
+            .hash = "12202f06edc8a4b69b0c84e9207b69958f68562ab080aed28751d11d15ee60305447",
+        },
+        .rcutils = .{
+            .url = "https://github.com/zig-robotics/rcutils/archive/main.tar.gz",
+            .hash = "12204daed4d69481fba372a1c4d96609e4da1360fa65a864e2fdd63491829be4d721",
+        },
+        .rosidl = .{
+            .url = "https://github.com/zig-robotics/rosidl/archive/main.tar.gz",
+            .hash = "1220d58ae9504ae6187e6b60ccf15b989425d28f57584c015e54f2ebbcc185dfafd5",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
