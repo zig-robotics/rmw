@@ -68,7 +68,7 @@ pub fn build(b: *std.Build) void {
     lib.installHeadersDirectory(
         upstream.path("rmw/include"),
         "",
-        .{},
+        .{ .include_extensions = &.{ ".h", ".hpp" } },
     );
     b.installArtifact(lib);
 }
