@@ -1,18 +1,18 @@
 .{
     .name = "rmw",
-    .version = "7.1.0",
+    .version = "7.3.1",
     .dependencies = .{
         .rmw = .{
-            .url = "https://github.com/ros2/rmw/archive/refs/heads/iron.tar.gz",
-            .hash = "12202f06edc8a4b69b0c84e9207b69958f68562ab080aed28751d11d15ee60305447",
+            .url = "https://github.com/ros2/rmw/archive/tags/7.3.1.tar.gz", // Jazzy
+            .hash = "12209925f48cb608dea3c07b5320da4ad77b701e91a418087d3621c2287c0d95da37",
         },
         .rcutils = .{
-            .url = "https://github.com/zig-robotics/rcutils/archive/main.tar.gz",
-            .hash = "12204daed4d69481fba372a1c4d96609e4da1360fa65a864e2fdd63491829be4d721",
+            .url = "https://github.com/zig-robotics/rcutils/archive/647dad504b790580206f90f57a07e62c2701319a.tar.gz",
+            .hash = "122037f70bcd7974dd0cdcb5a7b58e49053214635d77aa8a7e4aa0c5a533e12b12cf",
         },
         .rosidl = .{
-            .url = "https://github.com/zig-robotics/rosidl/archive/main.tar.gz",
-            .hash = "1220d58ae9504ae6187e6b60ccf15b989425d28f57584c015e54f2ebbcc185dfafd5",
+            .url = "https://github.com/zig-robotics/rosidl/archive/3a7f87cb8404d6b1511859200d6237356c54b9f3.tar.gz",
+            .hash = "122097ec655532d1a65e40039542786cf5cb3cd7f8682ad88f756d61e8a42b7d2b0d",
         },
     },
     .paths = .{
