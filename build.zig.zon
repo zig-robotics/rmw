@@ -7,12 +7,12 @@
             .hash = "12209925f48cb608dea3c07b5320da4ad77b701e91a418087d3621c2287c0d95da37",
         },
         .rcutils = .{
-            .url = "https://github.com/zig-robotics/rcutils/archive/647dad504b790580206f90f57a07e62c2701319a.tar.gz",
-            .hash = "122037f70bcd7974dd0cdcb5a7b58e49053214635d77aa8a7e4aa0c5a533e12b12cf",
+            .url = "https://github.com/zig-robotics/rcutils/archive/5458f10a3d0fb2ffb7fa8d97142924ff2d33e7bf.tar.gz",
+            .hash = "12201cd3c0d93eb979cda167fd019ccc7a9a2a4aac69db5aebe688ec6a6f304d9471",
         },
         .rosidl = .{
-            .url = "https://github.com/zig-robotics/rosidl/archive/3a7f87cb8404d6b1511859200d6237356c54b9f3.tar.gz",
-            .hash = "122097ec655532d1a65e40039542786cf5cb3cd7f8682ad88f756d61e8a42b7d2b0d",
+            .url = "https://github.com/zig-robotics/rosidl/archive/bd2c9989e84097804e8219c1086656b7822fd038.tar.gz",
+            .hash = "12202020e4e77eaa3edc2206b411005aeef0d393481a653bb509484fb76301553ab3",
         },
     },
     .paths = .{

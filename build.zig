@@ -11,6 +11,7 @@ pub fn build(b: *std.Build) void {
         .root_module = .{
             .target = target,
             .optimize = optimize,
+            .pic = if (linkage == .dynamic) true else null,
         },
         .name = "rmw",
         .kind = .lib,
@@ -63,6 +64,7 @@ pub fn build(b: *std.Build) void {
             "src/validate_namespace.c",
             "src/validate_node_name.c",
         },
+        .flags = &.{"-fvisibility=hidden"},
     });
 
     lib.installHeadersDirectory(
